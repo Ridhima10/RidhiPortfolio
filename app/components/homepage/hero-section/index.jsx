@@ -23,7 +23,7 @@ function HeroSection() {
       />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
-        <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
+        <div className="order-2 lg:order-1 flex flex-col items-start relative lg:top-8 justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is <span className=" text-pink-500">{personalData.name}</span>
@@ -67,7 +67,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="order-1 lg:order-2  rounded-lg ">
-          <div className="relative lg:top-[-7rem]">
+          <div className="relative lg:top-[-3.3rem] z-0">
             <AnimationLottie animationPath={lottieFile} />
           </div>
         </div>
