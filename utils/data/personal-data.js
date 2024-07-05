@@ -7,7 +7,8 @@ export const personalData = {
   phone: '+919622037097',
   address: 'Golden Homes Kharar-Landran RD, sector 127, Punjab, 140301, India',
   github: 'https://github.com/Ridhima10',
+  discord: 'https://discord.com/channels/@me',
   linkedIn: 'https://www.linkedin.com/in/ridhima-jain-96829a212/',
   devUsername: "Ridhima10",
-  // resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/15u-rZW18ctAxngE5TJ1O3DAyHzX2kn4K/view?usp=sharing"
 }
