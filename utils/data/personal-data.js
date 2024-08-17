@@ -10,5 +10,5 @@ export const personalData = {
   discord: 'https://discord.com/channels/@me',
   linkedIn: 'https://www.linkedin.com/in/ridhima-jain-96829a212/',
   devUsername: "Ridhima10",
-  resume: "https://drive.google.com/file/d/15u-rZW18ctAxngE5TJ1O3DAyHzX2kn4K/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1VqBv5fZHjAEpubPQwIg4HF-Dib7I7p6S/view?usp=sharing"
 }

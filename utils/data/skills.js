@@ -16,7 +16,8 @@ export const skillsData = [
   // 'Express.js',
   'Wordpress',
   'Canva',
-  'Vue',
+  // 'Vue',
+  'ViteJS',
 
 ]
 

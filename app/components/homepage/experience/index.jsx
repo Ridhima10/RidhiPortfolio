@@ -51,9 +51,9 @@ function Experience() {
                         className="absolute bottom-0 opacity-80"
                       /> */}
                   <div className="flex justify-center">
-                    {/* <p className="text-xs sm:text-sm text-[#16f2b3]">
+                    <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {experience.duration}
-                        </p> */}
+                        </p>
                   </div>
                   <div className="flex lg:items-center gap-x-8 px-3 py-5  flex-start flex-col md:flex md:flex-row">
                     <div className="text-violet-500   transition-all pb-2 duration-300 hover:scale-125">
@@ -76,7 +76,7 @@ function Experience() {
                             key={index}
                             href={link}
                             target="_blank"
-                            className="transition-all sm:text-center md:text-start text-white hover:scale-125 rounded-full duration-300 bg-gradient-to-r from-violet-600 to-pink-600 ms-2"
+                            className="transition-all sm:text-center md:text-start text-white  hover:scale-125 rounded-full duration-300  bg-pink-5 bg-[#101123] hover:bg-pink-500 ms-2"
                           >
                             <BsGithub size={30} />
                           </Link>

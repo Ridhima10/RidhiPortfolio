@@ -6,7 +6,7 @@ const navbar = () => {
       <nav className="bg-transparent z-10">
         <div className="flex items-center justify-between py-5">
           <div className="flex flex-shrink-0 items-center">
-            <Link href="/" className=" font-bold text-white text-2xl rounded-full border-pink-600 p-2 bg-pink-600">
+            <Link href="/" className="px-3 font-bold text-pink-500 text-3xl ">
               RJ
             </Link>
           </div>
