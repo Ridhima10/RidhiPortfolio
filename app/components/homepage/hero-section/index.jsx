@@ -18,7 +18,7 @@ function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="/svg/hero.svg"
+        src="/public/hero.svg"
         alt="Hero"
         width={1572}
         height={795}
