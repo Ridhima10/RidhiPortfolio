@@ -15,7 +15,7 @@ function Experience() {
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
     >
       <Image
-        src="/section.svg"
+        src="/asset/section.svg"
         width={1572}
         height={792}
         className="absolute top-0 -z-10"
@@ -43,13 +43,13 @@ function Experience() {
                 identifier={`experience-${experience.id}`}
               >
                 <div className="p-3 relative">
-                  {/* <Image
-                        src="/blur-23.svg"
+                  <Image
+                        src="/asset/blur-23.svg"
                         alt="Hero"
                         width={1080}
                         height={200}
                         className="absolute bottom-0 opacity-80"
-                      /> */}
+                      />
                   <div className="flex justify-center">
                     <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {experience.duration}
