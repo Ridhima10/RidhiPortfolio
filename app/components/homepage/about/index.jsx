@@ -5,6 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import profileImg from '../../../asset/profile.jpeg';
+
+
+
 
 function AboutSection() {
   return (
@@ -32,7 +36,7 @@ function AboutSection() {
        
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src={personalData.profile}
+            src={profileImg}
             width={240}
             height={150}
             alt="Ridhima Jain"

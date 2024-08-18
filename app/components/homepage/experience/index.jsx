@@ -7,6 +7,8 @@ import experience from "/public/lottie/code.json";
 import Link from "next/link";
 import { personalData } from "@/utils/data/personal-data";
 import { BsGithub } from "react-icons/bs";
+import section from '../../../asset/section.svg';
+import blurImg from '../../../asset/blur-23.svg';
 
 function Experience() {
   return (
@@ -15,7 +17,7 @@ function Experience() {
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
     >
       <Image
-        src="/asset/section.svg"
+        src={section}
         width={1572}
         height={792}
         className="absolute top-0 -z-10"
@@ -44,7 +46,7 @@ function Experience() {
               >
                 <div className="p-3 relative">
                   <Image
-                        src="/asset/blur-23.svg"
+                        src={blurImg}
                         alt="Hero"
                         width={1080}
                         height={200}

@@ -13,12 +13,14 @@ import { RiContactsFill } from "react-icons/ri";
 // import { SiLeetcode } from "react-icons/si";
 import lottieFile from "/public/lottie/profile.json";
 import AnimationLottie from "../../helper/animation-lottie";
+import heroImg from '../../../asset/hero.svg';
+
 
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="app/asset/hero.svg"
+        src={heroImg}
         alt="Hero"
         width={1572}
         height={795}
